@@ -6,7 +6,7 @@ const { validatorHandler } = require('../middlewares/validator.handler');
 
 const router = express.Router();
 
-const service = new ProductService(1000);
+const service = new ProductService(10);
 
 router.get(
   '/',
